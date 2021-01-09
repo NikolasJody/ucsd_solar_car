@@ -1330,8 +1330,167 @@ h1 {
 
 }
 
-@media (max-width: 600px) {
-
+.landing-image {
+  width: 100vw;
+  height: calc(100vw/2);
+  background-image: url("/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display:flex;
 }
 
+.landing-text-title {
+  font-size: 3vw;
+  font-weight: medium;
+  width: 25vw;
+  text-align: center;
+  color:#FAFAFA;
+  left: 25vw;
+}
+
+.landing-text-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 8%;
+  background-color: rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.landing-text {
+  font-size: 1.4vw;
+  font-weight: medium;
+  width: 35vw;
+  text-align: center;
+  color:#FAFAFA;
+  margin-top: 0;
+}
+
+.landing-button {
+  color: white;
+  height: 50px;
+  background-color: #142C94;
+  align-items: center;
+  display: flex;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.our-mission {
+  background-color: #F8CE46;
+  display:flex;
+  justify-content: center;
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+}
+
+.our-mission-container {
+  width: 70vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.our-mission-title {
+  font-size: 3vw;
+  font-weight: medium;
+  color: #333333;
+}
+
+.our-mission-text {
+  font-size: 1.4vw;
+  text-align: center;
+  font-weight: medium;
+  color: #333333;
+}
+
+.about-us {
+  background-color: #fff;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.about-us-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-text-container {
+  width: 70%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.about-us-background-image {
+  position: absolute;
+  right: 0;
+  width: 15vw;
+  bottom: 0;
+}
+
+.about-us-team-image {
+  width: 70%;
+}
+
+@media (max-width: 600px) {
+  .landing-text-title {
+    font-size: 2rem;
+    font-weight: medium;
+    text-align: center;
+    color:#333333;
+    width: 80vw;
+  }
+  .landing-text-container {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fafafa;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .landing-text {
+    font-size: 1rem;
+    font-weight: medium;
+    width: 80vw;
+    text-align: center;
+    color:#333333;
+  }
+
+  .our-mission {
+    background-color: #F8CE46;
+    display:flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .our-mission-title {
+    font-size: 2rem;
+    font-weight: medium;
+    color: #333333;
+  }
   
+  .our-mission-text {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: medium;
+    color: #333333;
+  }
+}

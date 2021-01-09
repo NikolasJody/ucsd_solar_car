@@ -12,7 +12,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div>
+    <div >
       <Head>
         <title>UCSD Solar Car</title>
         <link rel="icon" href="/favicon.png" />
@@ -73,40 +73,78 @@ export default function Home() {
       </div>
 
       <div className="about-us">
-          <div className="about-us-background-image">
-            <Image
-              src="/landing-solar-car.png"
-              layout="responsive"
-              width="575"
-              height="440"
-            />
-          </div>
-        <div className="d-flex">
-          <div className="about-us-container">
-            <div className="about-us-text-container">
-              <div className="our-mission-title">About Us</div>
-              <div className="our-mission-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et elit
-                et mauris, mattis dolor praesent nisi, varius orci. Eget
-                pretium, pellentesque nunc montes, pulvinar. A maecenas commodo
-                egestas cursus. Dolor est magna dignissim diam amet, purus
-                suspendisse. Risus pellentesque enim nec sed. Viverra orci
-                habitasse id risus libero faucibus elit metus, morbi. Nunc nulla
-                facilisis nascetur fringilla ipsum condimentum.
-              </div>
-            </div>
-          </div>
-          <div className="about-us-container">
-            <div className="about-us-team-image">
+        {isSmallScreen ? (
+          <div>
+            <div className="about-us-background-image">
               <Image
-                src="/team.jpg"
-                // layout="responsive"
-                width="700"
+                src="/landing-solar-car.png"
+                layout="responsive"
+                width="575"
                 height="440"
               />
             </div>
+            <div className="about-us-container">
+                <div className="about-us-team-image">
+                  <Image
+                    src="/team.jpg"
+                    width="700"
+                    height="440"
+                  />
+                </div>
+              </div>
+              <div className="about-us-container margin-top-lg">
+                <div className="about-us-text-container">
+                  <div className="our-mission-title">About Us</div>
+                  <div className="our-mission-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+                    elit et mauris, mattis dolor praesent nisi, varius orci.
+                    Eget pretium, pellentesque nunc montes, pulvinar. A maecenas
+                    commodo egestas cursus. Dolor est magna dignissim diam amet,
+                    purus suspendisse. Risus pellentesque enim nec sed. Viverra
+                    orci habitasse id risus libero faucibus elit metus, morbi.
+                    Nunc nulla facilisis nascetur fringilla ipsum condimentum.
+                  </div>
+                </div>
+              </div>
           </div>
-        </div>
+        ) : (
+          <div>
+            <div className="about-us-background-image">
+              <Image
+                src="/landing-solar-car.png"
+                layout="responsive"
+                width="575"
+                height="440"
+              />
+            </div>
+            <div className="d-flex">
+              <div className="about-us-container">
+                <div className="about-us-text-container">
+                  <div className="our-mission-title">About Us</div>
+                  <div className="our-mission-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
+                    elit et mauris, mattis dolor praesent nisi, varius orci.
+                    Eget pretium, pellentesque nunc montes, pulvinar. A maecenas
+                    commodo egestas cursus. Dolor est magna dignissim diam amet,
+                    purus suspendisse. Risus pellentesque enim nec sed. Viverra
+                    orci habitasse id risus libero faucibus elit metus, morbi.
+                    Nunc nulla facilisis nascetur fringilla ipsum condimentum.
+                  </div>
+                </div>
+              </div>
+              <div className="about-us-container">
+                <div className="about-us-team-image">
+                  <Image
+                    src="/team.jpg"
+                    // layout="responsive"
+                    width="700"
+                    height="440"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
       <Footer />
     </div>

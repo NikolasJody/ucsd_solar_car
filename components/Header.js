@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { CSSTransition, Transition } from "react-transition-group";
+import Link from "next/link";
 
 const Header = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(true);
@@ -17,13 +18,14 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-container">
-        <Image
-          src="/favicon.png"
-          alt="UCSD Solar Car Logo"
-          width="70"
-          height="50"
-        />
-
+        <Link href="/">
+          <Image
+            src="/favicon.png"
+            alt="UCSD Solar Car Logo"
+            width="70"
+            height="50"
+          />
+        </Link>
         {isSmallScreen ? (
           <a
             href="#expand"
@@ -48,9 +50,9 @@ const Header = () => {
             <a href="" className="nav-item">
               Contact
             </a>
-            <a href="" className="nav-button">
-              Donate
-            </a>
+            <Link href="/donate">
+              <a className="nav-button">Donate</a>
+            </Link>
           </div>
         )}
       </div>
@@ -123,7 +125,9 @@ const Header = () => {
                     width="100"
                     height="35"
                   />
-                  <div className="expanded-nav-item">Donate</div>
+                  <Link href="/donate">
+                    <a className="expanded-nav-item">Donate</a>
+                  </Link>
                 </div>
               </div>
             </div>

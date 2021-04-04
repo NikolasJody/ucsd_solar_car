@@ -1586,6 +1586,31 @@ h1 {
   justify-content: center;
 }
 
+.progress-title {
+  font-size: 3vw;
+  text-align: center;
+  font-weight: medium;
+  color: #333333;
+}
+
+.roboto-bold {
+  font-size: 1.4vw;
+  text-align: center;
+  font-weight: bold;
+  color: #494949;
+}
+.engineer-text {
+  font-size: 1.4vw;
+  text-align: center;
+  font-weight: medium;
+  color: #494949;
+}
+
+.center {
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center; /* align vertical */
+}
 @media (max-width: 600px) {
   .about-us {
     background-color: #fff;

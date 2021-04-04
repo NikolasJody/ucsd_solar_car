@@ -41,12 +41,17 @@ const Header = () => {
           </a>
         ) : (
           <div className="navbar">
-            <a href="" className="nav-item">
-              Mechanical
-            </a>
-            <a href="" className="nav-item">
-              Electrical
-            </a>
+            <Link href="/mecheng">
+              <a href="" className="nav-item">
+                Mechanical
+              </a>
+            </Link>
+
+            <Link href="/donate">
+              <a href="" className="nav-item">
+                Electrical
+              </a>
+            </Link>
             <a href="" className="nav-item">
               Contact
             </a>

@@ -47,6 +47,11 @@ a:hover {
   position: relative;
 }
 
+.back {
+  z-index: 1;
+
+}
+
 .block {
   display: block;
 }
@@ -1611,6 +1616,13 @@ h1 {
   justify-content: center; /* align horizontal */
   align-items: center; /* align vertical */
 }
+
+.z-index{
+  z-index: 99;
+}
+
+
+
 @media (max-width: 600px) {
   .about-us {
     background-color: #fff;

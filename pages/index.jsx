@@ -20,12 +20,13 @@ export default function Home() {
       <Header />
       <div>
         {isSmallScreen ? (
-          <div>
+          <div className="back">
             <Image
               src="/landing.jpg"
               layout="responsive"
               width="100"
               height="50"
+              
             />
             <div className="landing-text-container">
               <div className="landing-text-title">

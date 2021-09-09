@@ -30,7 +30,7 @@ export default function Home() {
       </div>
       <div className="our-mission">
         <div className="our-mission-container">
-          <div className="our-mission-title">Mechanical Team Goal</div>
+          <div className="our-mission-title">Electrical Team Goal</div>
           <div className="our-mission-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et
             elit et mauris, mattis dolor praesent nisi, varius orci.
@@ -45,16 +45,16 @@ export default function Home() {
 
       <div className="about-us">
 
-        <div className="display-flex">
+      <div className="display-flex">
           <div className={"flex-1"}> 
             <div className="center">
                 <img
-                  src="/mikeHuang.jpeg"
+                  src="/nerijaJanovskyte.jpg"
                   style={{width: "50%", height: "50%", borderRadius: 100}} 
                 />
               </div>
             <div className="margin-sm">
-              <div className="roboto-bold">Mike Huang</div>
+              <div className="roboto-bold">Nerija Janovskyte</div>
               <div className="engineer-text">B.S. Mechanical Engineering, 2022</div>
               <div className="engineer-text">Warren, 2nd year</div>
           
@@ -63,13 +63,13 @@ export default function Home() {
           <div className={"flex-1"}> 
             <div className="center">
               <img
-                src="/louisKing.jpg"
+                src="/yanglinLiu.jpg"
                 // layout="responsive"
                 style={{width: "50%", height: "50%", borderRadius: 100}} 
               />
             </div>
             <div className="margin-sm">
-              <div className="roboto-bold">Louis King</div>
+              <div className="roboto-bold">Yanglin Liu</div>
               <div className="engineer-text">B.S. Mechanical Engineering, 2022</div>
               <div className="engineer-text">7th college, 1st year</div>
             </div>
@@ -77,37 +77,16 @@ export default function Home() {
           <div className={"flex-1"}> 
             <div className="center">
               <img
-                src="/tsz-waiKwok.jpg"
-                style={{width: "50%", height: "50%", borderRadius: 100}} 
-              />
-            </div>
-            <div className="margin-sm">
-              <div className="roboto-bold">Tsz-Wai Kwok</div>
-              <div className="engineer-text">B.S. Mechanical Engineering, 2022</div>
-              <div className="engineer-text">Muir College, 3rd year</div>
-          
-            </div>
-          </div>
-        </div>
-
-        <div className="display-flex">
-          <div className={"flex-1"}> 
-            <div className="center">
-              <img
-                src="/chernLow.jpg"
+                src="/kanishkaRoy.jpg"
                 // layout="responsive"
                 style={{width: "50%", height: "50%", borderRadius: 100}} 
               />
             </div>
             <div className="margin-sm">
-              <div className="roboto-bold">Chern Yang (Jonathan) Low</div>
+              <div className="roboto-bold">Yanglin Liu</div>
               <div className="engineer-text">B.S. Mechanical Engineering, 2022</div>
-              <div className="engineer-text">Warren, 3rd year</div>
+              <div className="engineer-text">7th college, 1st year</div>
             </div>
-          </div>
-          <div className={"flex-1"}> 
-          </div>
-          <div className={"flex-1"}> 
           </div>
         </div>
       </div>

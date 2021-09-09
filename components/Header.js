@@ -47,12 +47,12 @@ const Header = () => {
               </a>
             </Link>
 
-            <Link href="/donate">
+            <Link href="/electrical">
               <a href="" className="nav-item">
                 Electrical
               </a>
             </Link>
-            <a href="" className="nav-item">
+            <a href="/contact" className="nav-item">
               Contact
             </a>
             <Link href="/donate">

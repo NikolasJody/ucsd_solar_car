@@ -35,7 +35,7 @@ export default function Home() {
               <div className="landing-text">
               The Solar Car Project is the first of its kind in that it attracts a large variety of students from various engineering as well as non-engineering backgrounds. Participating in this project gives students the opportunity to gain hands-­on experience with different fields of engineering (mechanical, engineering, aerospace, design) as well as experience in business, operations, and project management. Students in Triton Solar Car can stand out from the crowd by gaining important real-world experience and operating in an environment that prepares them for their careers by getting involved in setting deadlines, budgets, designs, reviews while doing their best to control all the unforeseen variables that may arise.
               </div>
-              <a href="" className="landing-button">
+              <a href="https://forms.gle/tyBKYYqABdbP7GTF8" className="landing-button">
                 Join Now
               </a>
             </div>
@@ -60,8 +60,7 @@ export default function Home() {
         <div className="our-mission-container">
           <div className="our-mission-title">Our Mission</div>
           <div className="our-mission-text">
-            Triton Solar Car is a sustainability project partnered with UCSD Engineers for a Sustainable World (ESW). Our mission is to build a car that is fueled 100% by solar energy and once the car is finished, we will apply to compete in solar car races.
-            This will not only portray the power of solar energy, but this project also helps inspire both team members and peers to get involved in sustainable projects both in school and their future careers. This also trains our members' useful skills needed to be successful engineers in any field they choose to pursue. Each of our members are working hard not only to finish the car but to learn how impactful using solar energy can be.
+          The Solar Car Team is committed to exploring the potential of solar energy, by building UCSD’s first ever Solar Car to participate in national and international competitions. We hope to not only create long-lasting education to portray the power of solar energy, but also inspire both team members and peers to get involved in sustainable projects both at school and in their future careers, to come up with innovative solutions for the energy crisis. Being part of the solar car team will give each team member useful skills needed to be successful in any field they choose to pursue, whether it be engineering, business, operations, or project management.
           </div>
         </div>
       </div>

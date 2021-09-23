@@ -21,7 +21,7 @@ export default function Home() {
       <div>
         <div>
           <Image
-            src="/engineerLanding.jpg"
+            src="/oldTeam.jpg"
             layout="responsive"
             width="100"
             height="50"

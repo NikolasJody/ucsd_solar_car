@@ -14,7 +14,10 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>UCSD Solar Car</title>
+        <title>UCSD SolarCar</title>
+        <meta charset="UTF-8" />
+        <meta name="description" content="The UCSD Solar Car Team has its roots firmly planted by a spirit of excellence through diversity. With a variety of students from contrasting educational as well as cultural backgrounds, every member is equally responsible for the team's success. Supervising them are the team leads, who go the extra step to bring out the best in every one of them." />
+        <meta name="keywords" content="ucsd, solarcar, club" />
         <link rel="icon" href="/favicon.png" />
       </Head>
       <Header />
@@ -30,7 +33,6 @@ export default function Home() {
       </div>
       <div className="our-mission">
         <div className="our-mission-container">
-          {/* <div className="our-mission-title">Electrical Team Goal</div> */}
           <div className="our-mission-text">
             The UCSD Solar Car Team has its roots firmly planted by a spirit of excellence through diversity. With a variety of students from contrasting educational as well as cultural backgrounds, every member is equally responsible for the team's success. Supervising them are the team leads, who go the extra step to bring out the best in every one of them.
           </div>
@@ -67,7 +69,7 @@ export default function Home() {
             <div className={"flex-1"}>
               <div className="center">
                 <img
-                  src="/nerijaJanovskyte.jpg"
+                  src="/jesse.jpg"
                   style={{ width: "50%", height: "50%", borderRadius: 100 }}
                 />
               </div>

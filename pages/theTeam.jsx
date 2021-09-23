@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <title>UCSD SolarCar</title>
+        <title>Our Team</title>
         <meta charset="UTF-8" />
         <meta name="description" content="The UCSD Solar Car Team has its roots firmly planted by a spirit of excellence through diversity. With a variety of students from contrasting educational as well as cultural backgrounds, every member is equally responsible for the team's success. Supervising them are the team leads, who go the extra step to bring out the best in every one of them." />
         <meta name="keywords" content="ucsd, solarcar, club" />

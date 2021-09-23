@@ -22,7 +22,7 @@ export default function Home() {
         {isSmallScreen ? (
           <div className="back">
             <Image
-              src="/landing.jpg"
+              src="/SolarCarHome.png"
               layout="responsive"
               width="100"
               height="50"
@@ -32,9 +32,9 @@ export default function Home() {
               <div className="landing-text-title">
                 Join UCSD's Solar Car Team
               </div>
-              <div className="landing-text">
+              {/* <div className="landing-text">
               The Solar Car Project is the first of its kind in that it attracts a large variety of students from various engineering as well as non-engineering backgrounds. Participating in this project gives students the opportunity to gain hands-­on experience with different fields of engineering (mechanical, engineering, aerospace, design) as well as experience in business, operations, and project management. Students in Triton Solar Car can stand out from the crowd by gaining important real-world experience and operating in an environment that prepares them for their careers by getting involved in setting deadlines, budgets, designs, reviews while doing their best to control all the unforeseen variables that may arise.
-              </div>
+              </div> */}
               <a href="https://forms.gle/tyBKYYqABdbP7GTF8" className="landing-button">
                 Join Now
               </a>
@@ -46,9 +46,9 @@ export default function Home() {
               <div className="landing-text-title">
                 Join UCSD's Solar Car Team
               </div>
-              <div className="landing-text">
+              {/* <div className="landing-text">
               The Solar Car Project is the first of its kind in that it attracts a large variety of students from various engineering as well as non-engineering backgrounds. Participating in this project gives students the opportunity to gain hands-­on experience with different fields of engineering (mechanical, engineering, aerospace, design) as well as experience in business, operations, and project management. Students in Triton Solar Car can stand out from the crowd by gaining important real-world experience and operating in an environment that prepares them for their careers by getting involved in setting deadlines, budgets, designs, reviews while doing their best to control all the unforeseen variables that may arise.
-              </div>
+              </div> */}
               <a href="" className="landing-button">
                 Join Now
               </a>
@@ -58,9 +58,9 @@ export default function Home() {
       </div>
       <div className="our-mission">
         <div className="our-mission-container">
-          <div className="our-mission-title">Our Mission</div>
+          <div className="our-mission-title">Beginning a tradition of excellence</div>
           <div className="our-mission-text">
-          The Solar Car Team is committed to exploring the potential of solar energy, by building UCSD’s first ever Solar Car to participate in national and international competitions. We hope to not only create long-lasting education to portray the power of solar energy, but also inspire both team members and peers to get involved in sustainable projects both at school and in their future careers, to come up with innovative solutions for the energy crisis. Being part of the solar car team will give each team member useful skills needed to be successful in any field they choose to pursue, whether it be engineering, business, operations, or project management.
+          The Solar Car Project is the first of its kind in that it attracts a large variety of students from various engineering as well as non-engineering backgrounds. Participating in this project gives students the opportunity to gain hands-­on experience with different fields of engineering (mechanical, engineering, aerospace, design) as well as experience in business, operations, and project management. Students in Triton Solar Car can stand out from the crowd by gaining important real-world experience and operating in an environment that prepares them for their careers by getting involved in setting deadlines, budgets, designs, reviews while doing their best to control all the unforeseen variables that may arise.
           </div>
         </div>
       </div>
@@ -87,9 +87,9 @@ export default function Home() {
               </div>
               <div className="about-us-container margin-top-lg">
                 <div className="about-us-text-container">
-                  <div className="our-mission-title">About Us</div>
+                  <div className="our-mission-title">Our Mission</div>
                   <div className="our-mission-text">
-                  Established in the fall of 2015, UCSD's first Solar Car Team is an entirely student-run project that aims to design, build, test, and race solar powered vehicles. Comprising over 15 students across a variety of disciplines and areas of study, we have come together to start a Solar Car program at UCSD, located in one of the sunniest cities in the world.
+                  The Solar Car Team is committed to exploring the potential of solar energy, by building UCSD’s first ever Solar Car to participate in national and international competitions. We hope to not only create long-lasting education to portray the power of solar energy, but also inspire both team members and peers to get involved in sustainable projects both at school and in their future careers, to come up with innovative solutions for the energy crisis. Being part of the solar car team will give each team member useful skills needed to be successful in any field they choose to pursue, whether it be engineering, business, operations, or project management.
                   </div>
                 </div>
               </div>
@@ -107,9 +107,9 @@ export default function Home() {
             <div className="d-flex">
               <div className="about-us-container">
                 <div className="about-us-text-container">
-                  <div className="our-mission-title">About Us</div>
+                  <div className="our-mission-title">Our Mission</div>
                   <div className="our-mission-text">
-                  Established in the fall of 2015, UCSD's first Solar Car Team is an entirely student-run project that aims to design, build, test, and race solar powered vehicles. Comprising over 15 students across a variety of disciplines and areas of study, we have come together to start a Solar Car program at UCSD, located in one of the sunniest cities in the world.
+                  The Solar Car Team is committed to exploring the potential of solar energy, by building UCSD’s first ever Solar Car to participate in national and international competitions. We hope to not only create long-lasting education to portray the power of solar energy, but also inspire both team members and peers to get involved in sustainable projects both at school and in their future careers, to come up with innovative solutions for the energy crisis. Being part of the solar car team will give each team member useful skills needed to be successful in any field they choose to pursue, whether it be engineering, business, operations, or project management.
                   </div>
                 </div>
               </div>

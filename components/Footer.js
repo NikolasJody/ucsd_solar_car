@@ -16,7 +16,7 @@ const Footer = () => {
           height="200"
         />
       </div>
-      <div>
+      {/* <div>
        <div className="footer-link-container">
         <a className="footer-link">Mechanical</a>
         <a className="footer-link">Electrical</a>
@@ -24,7 +24,7 @@ const Footer = () => {
         <a className="footer-link">Contact</a>
         <a className="footer-link">Donate</a>
        </div>
-      </div>
+      </div> */}
       <div className="footer-social-container">
         <a className="footer-social-logo-container">
           <Image

@@ -30,9 +30,17 @@ export default function Home() {
       </div>
       <div className="our-mission">
         <div className="our-mission-container">
-          <div className="our-mission-title">Want to reach out to us?</div>
           <div className="our-mission-text">
-              For any questions, requests and donations. please contact us through <a href="mailto:someone@yoursite.com">jody@solarcar.id</a>  
+          The project is currently recruiting! If you are interested in learning more about the team, about what we do, and how to join the team, feel free to contact us via any of the channels below!
+          <br/><br/>
+          If you would like to be added to the mailing list to be notified of events, and when the applications open, fill out this form: https://forms.gle/tyBKYYqABdbP7GTF8
+          <br/><br/>
+          Website: ucsdsolarcar.org<br/>
+          Facebook: UCSD Solar Car<br/>
+          Instagram: @ucsdsolarcar<br/>
+          Email: ucsdsolarcar@gmail.com<br/>
+          Phone: (541) 300-7986<br/>
+
           </div>
         </div>
       </div>

@@ -80,6 +80,23 @@ a:hover {
 .display-flex {
   display: flex;
 }
+.member-card-flex {
+  display: flex;
+}
+
+.member-card-container{
+  margin: 20px 50px;
+  border: solid #000;
+  border-width: 1px;
+
+  box-shadow: 10px 10px 5px grey;
+  border-radius: 40px 40px 40px 40px;
+  padding: 30px;
+  
+}
+.border-card{
+  border-width: 3px;
+}
 
 .display-flex-row {
   display: flex;
@@ -1209,7 +1226,7 @@ h1 {
 .expanded-header { 
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 30vh;
   background-color: #E2A308;
   transition: all .3s ease-in-out;
   top: 0;
@@ -1221,12 +1238,12 @@ h1 {
 }
 
 .expand-enter.expand-enter-active {
-  height: 100vh;
+  height: 30vh;
   transition: height .3s ease-in-out;
 }
 
 .expand-leave {
-  height: 100vh;
+  height: 30vh;
 }
 
 .expand-leave.expand-leave-active {
@@ -1259,14 +1276,12 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   width: 100%;
-  height: 80vh;
-  margin-top: 20px;
+  // margin-top: 20px;
   align-items: center;
 }
 
 .expanded-menu-item {
   width: 80%;
-  height: 100px;
   object-fit: contain;
 }
 
@@ -1345,7 +1360,7 @@ h1 {
 .landing-image {
   width: 100vw;
   height: calc(100vw/2);
-  background-image: url("/landing.jpg");
+  background-image: url("/SolarCarHome.png");
   background-repeat: no-repeat;
   background-size: cover;
   align-items: center;
@@ -1414,6 +1429,7 @@ h1 {
 .our-mission-title {
   font-size: 3vw;
   font-weight: medium;
+  text-align: center;
   color: #333333;
 }
 
@@ -1425,9 +1441,11 @@ h1 {
 }
 
 .about-us {
+  display:flex;
+  justify-content: center;
   background-color: #fff;
   position: relative;
-  padding-top: 100px;
+  padding-top: 65px;
   padding-bottom: 100px;
 }
 
@@ -1619,6 +1637,12 @@ h1 {
 
 .z-index{
   z-index: 99;
+}
+
+.white-section{
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 

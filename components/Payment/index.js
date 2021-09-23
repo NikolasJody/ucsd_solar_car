@@ -36,7 +36,6 @@ class PaymentComponent extends React.Component {
       this.setState({ email: details.email, error });
     }
   }
-
   render() {
     return (
       <form className="Form" >

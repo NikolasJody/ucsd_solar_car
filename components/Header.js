@@ -41,15 +41,15 @@ const Header = () => {
           </a>
         ) : (
             <div className="navbar">
-              <Link href="/mecheng">
+              <Link href="/aboutUs">
                 <a href="" className="nav-item">
-                  Mechanical
+                  About Us
               </a>
               </Link>
 
-              <Link href="/electrical">
+              <Link href="/theTeam">
                 <a href="" className="nav-item">
-                  Electrical
+                  The Team
               </a>
               </Link>
               <a href="/contact" className="nav-item">
@@ -66,16 +66,9 @@ const Header = () => {
         unmountOnExit
         timeout={300}
         classNames="expand"
-        transitionAppear={true}
+        // transitionAppear={true}
       >
         <div className="expanded-header z-index">
-          <CSSTransition
-            in={expandHamburger}
-            unmountOnExit
-            timeout={300}
-            classNames="expand-image"
-            transitionAppear={true}
-          >
             <div>
               <div className="expanded-header-container">
                 <a
@@ -92,53 +85,29 @@ const Header = () => {
                 </a>
               </div>
               <div className="expanded-menu-container">
-                <Link href="/mecheng" >
+                <Link href="/aboutUs" >
                   <div className="expanded-menu-item">
-                    <Image
-                      className="expanded-menu-img"
-                      src="/mechanical.jpg"
-                      layout="responsive"
-                      width="100"
-                      height="35"
-                    />
-                    <div className="expanded-nav-item">Mechanical</div>
+                    <div className="expanded-nav-item">About Us</div>
                   </div>
                 </Link>
+                <Link href="/electrical" >
                 <div className="expanded-menu-item">
-                  <Image
-                    className="expanded-menu-img"
-                    src="/mechanical.jpg"
-                    layout="responsive"
-                    width="100"
-                    height="35"
-                  />
                   <div className="expanded-nav-item">Electrical</div>
                 </div>
+                </Link>
+                <Link href="/contact" >
                 <div className="expanded-menu-item">
-                  <Image
-                    className="expanded-menu-img"
-                    src="/mechanical.jpg"
-                    layout="responsive"
-                    width="100"
-                    height="35"
-                  />
                   <div className="expanded-nav-item">Contact</div>
                 </div>
+
+                </Link>
+                <Link href="/donate" >
                 <div className="expanded-menu-item">
-                  <Image
-                    className="expanded-menu-img"
-                    src="/mechanical.jpg"
-                    layout="responsive"
-                    width="100"
-                    height="35"
-                  />
-                  <Link href="/donate">
-                    <a className="expanded-nav-item">Donate</a>
-                  </Link>
+                    <div className="expanded-nav-item">Donate</div>
                 </div>
+                </Link>
               </div>
             </div>
-          </CSSTransition>
         </div>
       </CSSTransition>
     </div>

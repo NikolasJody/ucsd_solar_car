@@ -32,13 +32,14 @@ const PaymentScreen = (props) => {
             <div className="donate-header-text-container">
               <div className="donate-background-text-title">DONATE</div>
               <div className="donate-background-text">
-                To support our programs
+                We hope that you will decide to support us and our goal to not only build UC San Diego’s first solar car but also to continue the advancement of renewable energy globally. Please do not hesitate to reach out to us. Thank you for your time and consideration, we look forward to hearing from you.
+  
               </div>
             </div>
           </div>
         </div>
 
-        <div className="donation_list">
+        {/* <div className="donation_list">
           <div
             className="donation_card"
             onClick={() => {
@@ -96,7 +97,7 @@ const PaymentScreen = (props) => {
               et mauris, mattis dolor praesent nisi, varius orci.{" "}
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div ref={bottomContainerRef} className="bottom_container">
           <div className="donation_left_image_container">
@@ -105,13 +106,13 @@ const PaymentScreen = (props) => {
 
           <div className="donation_box">
             <div className="donation-container">
-            <PaymentComponent
-              amount={amount}
-              onSuccess={(data) => {
-                console.log(data);
-              }}
-            />
-          </div>
+              <PaymentComponent
+                amount={amount}
+                onSuccess={(data) => {
+                  console.log(data);
+                }}
+              />
+            </div>
           </div>
 
           <div className="donation_right_image_container">

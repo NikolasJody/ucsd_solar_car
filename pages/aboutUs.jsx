@@ -24,7 +24,7 @@ export default function Home() {
         {isSmallScreen ? (
           <div className="back">
             <Image
-              src="/SolarCarHome.png"
+              src="/SolarCarCity.jpg"
               layout="responsive"
               width="100"
               height="50"

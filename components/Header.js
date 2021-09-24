@@ -90,9 +90,9 @@ const Header = () => {
                     <div className="expanded-nav-item">About Us</div>
                   </div>
                 </Link>
-                <Link href="/electrical" >
+                <Link href="/theTeam" >
                 <div className="expanded-menu-item">
-                  <div className="expanded-nav-item">Electrical</div>
+                  <div className="expanded-nav-item">The Team</div>
                 </div>
                 </Link>
                 <Link href="/contact" >

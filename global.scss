@@ -1235,11 +1235,13 @@ h1 {
 
 .expand-enter {
   height: 0px;
+  opacity: 0;
 }
 
-.expand-enter.expand-enter-active {
+.expand-enter-active {
   height: 30vh;
-  transition: height .3s ease-in-out;
+  transform: opacity 300ms, translateY(-500px);
+  opacity: 1;
 }
 
 .expand-leave {
@@ -1251,25 +1253,6 @@ h1 {
   transition: all .3s ease-in-out;
 }
 
-
-.expand-image-enter {
-  opacity: 0;
-}
-
-.expand-image-enter.expand-image-enter-active {
-  opacity: 1;
-  transition-delay: 1.5s;
-  transition: opacity 1s ease-in-out;
-}
-
-.expand-image-leave {
-  opacity: 1;
-}
-
-.expand-image-leave.expand-image-leave-active {
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-}
 
 .expanded-menu-container {
   display: flex;

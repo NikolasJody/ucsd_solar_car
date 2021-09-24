@@ -66,24 +66,24 @@ const Header = () => {
         unmountOnExit
         timeout={300}
         classNames="expand"
-        // transitionAppear={true}
+      // transitionAppear={true}
       >
         <div className="expanded-header z-index">
-            <div>
-              <div className="expanded-header-container">
-                <a
-                  href="#"
-                  className="expanded-hamburger-container"
-                  onClick={() => onHamburgerClick(false)}
-                >
-                  <Image
-                    src="/hamburger-expanded.png"
-                    alt="hamburger menu expanded logo"
-                    width="33"
-                    height="28"
-                  />
-                </a>
-              </div>
+          <div>
+            <div className="expanded-header-container">
+              <a
+                href="#"
+                className="expanded-hamburger-container"
+                onClick={() => onHamburgerClick(false)}
+              >
+                <Image
+                  src="/hamburger-expanded.png"
+                  alt="hamburger menu expanded logo"
+                  width="33"
+                  height="28"
+                />
+              </a>
+            </div>
               <div className="expanded-menu-container">
                 <Link href="/aboutUs" >
                   <div className="expanded-menu-item">
@@ -91,23 +91,23 @@ const Header = () => {
                   </div>
                 </Link>
                 <Link href="/theTeam" >
-                <div className="expanded-menu-item">
-                  <div className="expanded-nav-item">The Team</div>
-                </div>
+                  <div className="expanded-menu-item">
+                    <div className="expanded-nav-item">The Team</div>
+                  </div>
                 </Link>
                 <Link href="/contact" >
-                <div className="expanded-menu-item">
-                  <div className="expanded-nav-item">Contact</div>
-                </div>
+                  <div className="expanded-menu-item">
+                    <div className="expanded-nav-item">Contact</div>
+                  </div>
 
                 </Link>
                 <Link href="/donate" >
-                <div className="expanded-menu-item">
+                  <div className="expanded-menu-item">
                     <div className="expanded-nav-item">Donate</div>
-                </div>
+                  </div>
                 </Link>
               </div>
-            </div>
+          </div>
         </div>
       </CSSTransition>
     </div>

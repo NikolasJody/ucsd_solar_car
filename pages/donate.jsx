@@ -31,14 +31,24 @@ const PaymentScreen = (props) => {
           <div className="donate-background-text-container">
             <div className="donate-header-text-container">
               <div className="donate-background-text-title">DONATE</div>
-              <div className="donate-background-text">
+              {/* <div className="donate-background-text">
                 We hope that you will decide to support us and our goal to not only build UC San Diego’s first solar car but also to continue the advancement of renewable energy globally. Please do not hesitate to reach out to us. Thank you for your time and consideration, we look forward to hearing from you.
-  
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
+
+        <div className="our-mission">
+          <div className="our-mission-container">
+            <div className="our-mission-text">
+              We hope that you will decide to support us and our goal to not only build UC San Diego’s first solar car but also to continue the advancement of renewable energy globally. Please do not hesitate to reach out to us. Thank you for your time and consideration, we look forward to hearing from you.
+            </div>
+            <a href="https://paypal.me/ucsdsolarcar?locale.x=en_US" className="landing-button">
+                Donate
+              </a >
+          </div>
+        </div>
         {/* <div className="donation_list">
           <div
             className="donation_card"
@@ -99,7 +109,7 @@ const PaymentScreen = (props) => {
           </div>
         </div> */}
 
-        <div ref={bottomContainerRef} className="bottom_container">
+        {/* <div ref={bottomContainerRef} className="bottom_container">
           <div className="donation_left_image_container">
             <Image src="/humans.jpg" width="295.32" height="441.08" />
           </div>
@@ -118,7 +128,7 @@ const PaymentScreen = (props) => {
           <div className="donation_right_image_container">
             <Image src="/abstract.jpg" width="700" height="440" />
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
     </div>

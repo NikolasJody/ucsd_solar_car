@@ -32,7 +32,7 @@ export default function Home() {
             />
           </div>
         ) : (
-            <div className="landing-image">
+            <div className="landing-image-about">
             </div>
           )}
       </div>

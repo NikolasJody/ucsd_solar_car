@@ -1366,6 +1366,15 @@ h1 {
   align-items: center;
   display:flex;
 }
+.landing-image-about {
+  width: 100vw;
+  height: calc(100vw/2);
+  background-image: url("/SolarCarCity.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display:flex;
+}
 
 .landing-text-title {
   font-size: 3vw;

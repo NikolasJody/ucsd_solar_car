@@ -30,18 +30,26 @@ export default function Home() {
       </div>
       <div className="our-mission">
         <div className="our-mission-container">
-          <div className="our-mission-text">
+          <p className="our-mission-text">
           The project is currently recruiting! If you are interested in learning more about the team, about what we do, and how to join the team, feel free to contact us via any of the channels below!
-          <br/><br/>
-          If you would like to be added to the mailing list to be notified of events, and when the applications open, fill out this form: https://forms.gle/tyBKYYqABdbP7GTF8
-          <br/><br/>
+          </p>
+          <br/>
+          <p className="our-mission-text">
+          If you would like to be added to the mailing list to be notified of events, and when the applications open, fill out this form: 
+          </p>
+          <a href="https://forms.gle/tyBKYYqABdbP7GTF8" className="landing-button">
+                Join Now
+              </a >
+          <br/>
+
+          <p className="our-mission-text">
           Website: ucsdsolarcar.org<br/>
           Facebook: UCSD Solar Car<br/>
           Instagram: @ucsdsolarcar<br/>
           Email: ucsdsolarcar@gmail.com<br/>
           Phone: (541) 300-7986<br/>
 
-          </div>
+          </p>
         </div>
       </div>
       <Footer />

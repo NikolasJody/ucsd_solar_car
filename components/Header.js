@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { CSSTransition, Transition } from "react-transition-group";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const Header = () => {
   const [isSmallScreen, setIsSmallScreen] = useState(true);
@@ -14,6 +15,9 @@ const Header = () => {
   const onHamburgerClick = (b) => {
     setExpandHamburger(b);
   };
+
+  //keeptrack of active
+  const router = useRouter();
 
   return (
     <div className="header">
@@ -42,17 +46,17 @@ const Header = () => {
         ) : (
             <div className="navbar">
               <Link href="/aboutUs">
-                <a href="" className="nav-item">
+                <a href="" className={router.pathname == "/aboutUs" ? "nav-item-curr" : "nav-item"}>
                   About Us
               </a>
               </Link>
 
               <Link href="/theTeam">
-                <a href="" className="nav-item">
+                <a href="" className={router.pathname == "/theTeam" ? "nav-item-curr" : "nav-item"}>
                   The Team
               </a>
               </Link>
-              <a href="/contact" className="nav-item">
+              <a href="/contact" className={router.pathname == "/contact" ? "nav-item-curr" : "nav-item"}>
                 Contact
             </a>
               <Link href="/donate">

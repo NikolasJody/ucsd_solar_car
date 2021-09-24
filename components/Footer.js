@@ -26,7 +26,7 @@ const Footer = () => {
        </div>
       </div> */}
       <div className="footer-social-container">
-        <a className="footer-social-logo-container">
+        <a href="https://www.instagram.com/ucsdsolarcar/ " target="_blank" className="footer-social-logo-container button-link">
           <Image
             className="logo-footer"
             src="/instagram-logo.png"
@@ -35,7 +35,7 @@ const Footer = () => {
             height="40"
           />
         </a>
-        <a className="footer-social-logo-container">
+        <a href="https://www.facebook.com/ucsdsolarcar/ " target="_blank" className="footer-social-logo-container button-link">
           <Image
             className="logo-footer"
             src="/facebook-logo.png"
@@ -44,7 +44,7 @@ const Footer = () => {
             height="40"
           />
         </a>
-        <a className="footer-social-logo-container">
+        {/* <a className="footer-social-logo-container">
           <Image
             className="logo-footer"
             src="/linkedin-logo.png"
@@ -52,8 +52,8 @@ const Footer = () => {
             width="40"
             height="40"
           />
-        </a>
-        <a className="footer-social-logo-container">
+        </a> */}
+        <a href="mailto: ucsdsolarcar@gmail.com" target="_blank" className="footer-social-logo-container button-link">
           <Image
             className="logo-footer"
             src="/email-logo.png"

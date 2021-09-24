@@ -69,7 +69,7 @@ export default function Home() {
                 <div className="our-mission-container">
                   <div className="our-mission-title">The Races</div>
                   <div className="our-mission-text">
-                    Our Solar Car is designed to be highly efficient in converting solar energy into mechanical motion, and all power used to run the car will come from the sun. To demonstrate our car to the rest of the world, we aim in participating in solar races, including some of the below:
+                      Our Solar Car is designed to be highly efficient in converting solar energy into mechanical motion, and all power used to run the car will come from the sun. To demonstrate our car to the rest of the world, we aim in participating in solar races, including some of the below:
                     <br />
                     <br />
                     <b>The Formula Sun Grand Prix (Summer 2022) :</b><br />The Formula Sun Grand Prix (FSGP) is an annual track race that is held on grand prix or road style closed courses. This unique style of solar car racing is open to teams from around the world and truly tests the limits of the vehicles in handling curves, braking, and acceleration.

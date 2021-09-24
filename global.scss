@@ -1180,10 +1180,22 @@ h1 {
 }
 
 .nav-item {
-  margin: 10px;
+  padding: 10px;
   font-size: 16px;
 }
 
+.nav-item:active{
+  // padding: 10px;
+  // font-size: 16px;
+  background-color: grey;
+}
+
+
+.nav-item-curr{
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(196, 196, 196);
+}
 .nav-button {
   color: white;
   margin-left: 10px;
@@ -1706,4 +1718,14 @@ h1 {
     font-weight: medium;
     color: #333333;
   }
+}
+
+.button-link:active { 
+  transform: translateY(-10px);
+  transition: all .1s ease-in;
+  background-color: red($color: #000000);
+} 
+
+.button-link:hover{
+  text-decoration: none;
 }

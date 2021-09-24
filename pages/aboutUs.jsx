@@ -55,10 +55,10 @@ export default function Home() {
                   Our Solar Car is designed to be highly efficient in converting solar energy into mechanical motion, and all power used to run the car will come from the sun. To demonstrate our car to the rest of the world, we aim in participating in solar races, including some of the below:
                   <br />
                   <br />
-                  The Formula Sun Grand Prix (Summer 2022) : The Formula Sun Grand Prix (FSGP) is an annual track race that is held on grand prix or road style closed courses. This unique style of solar car racing is open to teams from around the world and truly tests the limits of the vehicles in handling curves, braking, and acceleration.
+                  <b>The Formula Sun Grand Prix (Summer 2022) : </b><br />The Formula Sun Grand Prix (FSGP) is an annual track race that is held on grand prix or road style closed courses. This unique style of solar car racing is open to teams from around the world and truly tests the limits of the vehicles in handling curves, braking, and acceleration.
                   <br />
                   <br />
-                  The American Solar Challenge (Summer 2022) : The American Solar Challenge (ASC) is a multi-day, 1,500-2,000 mile cross-country endurance rally across North America. The event is typically held every other year during the summer and is open to collegiate level solar car teams from countries all over the world. The routes have varied greatly over the course of the event’s rich history, but they are always designed to provide teams with a great opportunity to demonstrate their solar cars under real world driving conditions and thoroughly test the reliability of all onboard systems.
+                  <b>The American Solar Challenge (Summer 2022) : </b><br />The American Solar Challenge (ASC) is a multi-day, 1,500-2,000 mile cross-country endurance rally across North America. The event is typically held every other year during the summer and is open to collegiate level solar car teams from countries all over the world. The routes have varied greatly over the course of the event’s rich history, but they are always designed to provide teams with a great opportunity to demonstrate their solar cars under real world driving conditions and thoroughly test the reliability of all onboard systems.
                 </div>
               </div>
             </div>
@@ -72,10 +72,10 @@ export default function Home() {
                     Our Solar Car is designed to be highly efficient in converting solar energy into mechanical motion, and all power used to run the car will come from the sun. To demonstrate our car to the rest of the world, we aim in participating in solar races, including some of the below:
                     <br />
                     <br />
-                    The Formula Sun Grand Prix (Summer 2022) : The Formula Sun Grand Prix (FSGP) is an annual track race that is held on grand prix or road style closed courses. This unique style of solar car racing is open to teams from around the world and truly tests the limits of the vehicles in handling curves, braking, and acceleration.
+                    <b>The Formula Sun Grand Prix (Summer 2022) :</b><br />The Formula Sun Grand Prix (FSGP) is an annual track race that is held on grand prix or road style closed courses. This unique style of solar car racing is open to teams from around the world and truly tests the limits of the vehicles in handling curves, braking, and acceleration.
                     <br />
                     <br />
-                    The American Solar Challenge (Summer 2022) : The American Solar Challenge (ASC) is a multi-day, 1,500-2,000 mile cross-country endurance rally across North America. The event is typically held every other year during the summer and is open to collegiate level solar car teams from countries all over the world. The routes have varied greatly over the course of the event’s rich history, but they are always designed to provide teams with a great opportunity to demonstrate their solar cars under real world driving conditions and thoroughly test the reliability of all onboard systems.
+                    <b>The American Solar Challenge (Summer 2022) : </b><br />The American Solar Challenge (ASC) is a multi-day, 1,500-2,000 mile cross-country endurance rally across North America. The event is typically held every other year during the summer and is open to collegiate level solar car teams from countries all over the world. The routes have varied greatly over the course of the event’s rich history, but they are always designed to provide teams with a great opportunity to demonstrate their solar cars under real world driving conditions and thoroughly test the reliability of all onboard systems.
                   </div>
                 </div>
               </div>

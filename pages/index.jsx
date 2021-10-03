@@ -38,7 +38,7 @@ export default function Home() {
               {/* <div className="landing-text">
               The Solar Car Project is the first of its kind in that it attracts a large variety of students from various engineering as well as non-engineering backgrounds. Participating in this project gives students the opportunity to gain hands-­on experience with different fields of engineering (mechanical, engineering, aerospace, design) as well as experience in business, operations, and project management. Students in Triton Solar Car can stand out from the crowd by gaining important real-world experience and operating in an environment that prepares them for their careers by getting involved in setting deadlines, budgets, designs, reviews while doing their best to control all the unforeseen variables that may arise.
               </div> */}
-              <a href="https://forms.gle/tyBKYYqABdbP7GTF8" className="landing-button">
+              <a href="https://forms.gle/2HaAVmnkUYs271rAA" className="landing-button">
                 Join Now
               </a>
             </div>
@@ -49,7 +49,7 @@ export default function Home() {
               <div className="landing-text-title">
                 Join UCSD's Solar Car Team
               </div>
-              <a href="" className="landing-button">
+              <a href="https://forms.gle/2HaAVmnkUYs271rAA" className="landing-button">
                 Join Now
               </a>
             </div>
